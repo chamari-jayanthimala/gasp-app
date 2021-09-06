@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import './App.css';
 import { gsap } from "gsap";
 
@@ -7,7 +7,7 @@ const { useEffect, useRef } = React;
 function App() {
    // store a reference to the box div
    const el = useRef();
-   const q = gsap.utils.selector(el);
+   //const q = gsap.utils.selector(el);
 
    useEffect(() => {
     
